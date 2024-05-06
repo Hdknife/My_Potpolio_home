@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhishek's Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <style>
+    /* Your CSS styles go here */
+
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 20px;
+      color: #007bff;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .skills {
+      font-weight: bold;
+      color: #28a745;
+    }
+
+    .portfolio-item {
+      margin-bottom: 40px;
+      text-align: left;
+      border-left: 5px solid #007bff;
+      padding-left: 10px;
+    }
+
+    .portfolio-item h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .portfolio-item p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .project-list {
+      list-style-type: none;
+      padding: 0;
+      margin: 20px 0;
+    }
+
+    .project-list li {
+      margin-bottom: 20px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .project-list li:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .project-list li h3 {
+      margin-bottom: 5px;
+      color: #007bff;
+    }
+
+    .project-list li p {
+      font-size: 16px;
+      color: #666;
+    }
+
+    .name-animation span {
+      display: inline-block;
+      opacity: 0;
+      animation: fadeIn 1s forwards;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: #007bff;
+    }
+
+    footer {
+      margin-top: 50px;
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1 class="animate__animated animate__fadeInDown">Welcome to <span class="name-animation"><span>A</span><span>b</span><span>h</span><span>i</span><span>s</span><span>h</span><span>e</span><span>k</span></span>'s Portfolio</h1>
+  <p class="animate__animated animate__fadeInUp">I'm Abhishek, a Python enthusiast with expertise in web scraping and FastAPI.</p>
+  <p class="animate__animated animate__fadeInUp">I have a keen interest in extracting data from various websites, and I've successfully completed numerous web scraping projects.</p>
+  <p class="animate__animated animate__fadeInUp">My <span class="skills">skills</span> include:</p>
+  <ul class="animate__animated animate__fadeInUp">
+    <li style="color: #007bff;">Python</li>
+    <li>Web Scraping</li>
+    <li style="color: #28a745;">FastAPI</li>
+    <li style="color: #333;">AI Tool</li>
+    <li style="color: #28a745;">MongoDB</li>
+    <li><span style="color: red;">My</span>SQL</li>
+  </ul>
+  <div class="portfolio-item animate__animated animate__fadeInUp">
+    <h3>Web Scraping Projects</h3>
+    <p>I've worked on various web scraping projects, extracting data from e-commerce websites, social media platforms, and more.</p>
+  </div>
+  <div class="portfolio-item animate__animated animate__fadeInUp">
+    <h3>FastAPI Applications</h3>
+    <p>I've developed RESTful APIs using FastAPI for various applications, providing efficient and scalable solutions.</p>
+  </div>
+  <h2 class="animate__animated animate__fadeInUp">My Projects</h2>
+  <ul class="project-list animate__animated animate__fadeInUp">
+    <li>
+      <a href="#"><h3>AI Website</h3></a>
+      <p>A web application that provides question answering using Google Plam AI, Python, and Flask.</p>
+    </li>
+    <li>
+      <a href="https://github.com/Hdknife/Web-Scraper-Scripts"><h3>Web Scraping from EventBrite Website</h3></a>
+      <p>Eventbrite serves as a comprehensive event discovery platform for Northamptonshire, United Kingdom. It offers a rich database of events encompassing various categories like workshops, conferences, family activities, and both free and popular attractions. For targeted event data extraction, developers can leverage web scraping scripts. These scripts automate the process of navigating Eventbrite's website, identifying relevant event details, and capturing them in a structured format.</p>
+    </li>
+    <li>
+      <a href="#"><h3>AI Scraper</h3></a>
+      <p>A Web Scraping Module that scrapes data with the help of AI.</p>
+    </li>
+  </ul>
+  <div class="portfolio-item animate__animated animate__fadeInUp">
+    <h3>Contact Me</h3>
+    <p>Email: abhisheksondhiya11hd@gmail.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/abhishek-sondhiya-752245225/">Abhishek|LinkedIn</a></p>
+  </div>
+</div>
+</body>
+</html>
