@@ -1,0 +1,210 @@
+/* Body styles */
+
+body{
+    margin: 2px;
+    padding: 5px;
+    /* azure should we on common */
+    background-color: rgb(255, 255, 255);
+    color: #061106;
+    font-family: 'Poppins';
+}
+
+/* Header session*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    /* border: solid; */
+    position: fixed;
+    top: 3px;
+    width: 99%;
+    /* padding:  20px; */
+    background-color: rgba(240, 248, 255, 0.708);
+    box-shadow: 0 2px 5px #000.1;
+    z-index: 100;
+}
+
+/* navigation */
+nav ul{
+    /* border: solid #ff9800; */
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+}
+
+/* list editing of nav bar */
+nav ul li {
+    margin: 0 15px;
+}
+
+/* editing on a tag in nav bar */
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+/* effect*/
+nav ul li a:hover {
+    color: #ff9800;
+}
+
+/*Typing Animation*/
+.typing-container{
+    /* position: absolute; */
+    /* border: solid salmon; */
+    
+    font-family: 'Courier New';
+    font-size: 1.5rem;
+    border-right: 3px solid #000;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    animation: optical 2s infinite;
+
+}
+/*  */
+
+
+/* typing session */
+.intro-section {
+    border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #000000, #333);
+    /* background-image: url("/image/WhatsApp\ Image\ 2024-11-19\ at\ 20.46.54_9960438b.jpg"); */
+    background-position: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url('/static/images/theme/WhatsApp\ Image\ 2024-11-19\ at\ 20.46.54_9960438b.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+/* intro size */
+.intro-container {
+    max-width: 100%;
+    padding: 0 20px;
+}
+
+/* text beautify */
+.intro h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #ffd700;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 15px;
+    line-height: 1.6;
+    color: #f3f3f3;
+}
+
+/* skill-session */
+.skill-session{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    text-align: center;  
+}
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Skill Box */
+.skill-box {
+    /* background: #fff; */
+    border-radius: 10px;
+    padding: 10px 50px;
+    text-align: left;
+    font-weight: 600;
+    display: flex;
+    align-items: center; /* Align icon and text horizontally */
+    gap: 1px; /* Space between icon and text */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    color: #000; /* Black text */
+    width: fit-content; /* Adjust width based on content */
+    cursor: pointer;
+}
+
+/* Hover Effect */
+.skill-box:hover {
+    transform: translateY(-5px);
+    background-color: #ff9800;
+    color: #fff;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Icon */
+.skill-box img {
+    width: 30px;
+    height: 30px;
+    filter: grayscale(100%) brightness(0) contrast(100%); 
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+/* Icon hover */
+.skill-box:hover img {
+    filter: grayscale(0) brightness(1) contrast(1); /* Color icon on hover */
+    transform: scale(1.2);
+}
+.skill-box:hover .scrape {
+    filter: grayscale(0) brightness(1) contrast(1); /* Color icon on hover */
+    transform: scale(1.2);
+}
+
+/* Text */
+.skill-box p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+/* Marquee container */
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+/* Marquee content */
+.marquee {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 10s linear infinite;
+}
+
+/* Items in the marquee */
+.marquee .item {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Scrolling animation */
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

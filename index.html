@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="/static/css/projects.css">
+    <link rel="stylesheet" href="/static/css/contact_form.css">
+</head>
+
+<body>
+    <!--Nav bar  -->
+    <header>
+        <div class="menu-content">
+            <nav>
+                <ul>
+                    <li><a class="about" href="#about">Home</a></li>
+                    <li><a class="about" href="#skills">Projects</a></li>
+                    <li><a class="about" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="typing-container">
+            <p id="typing-text">
+
+            </p>
+        </div>
+    </header>
+    <main>
+        <section class="intro-section">
+            <div style="font-size: xx-large;" class="intro-content">
+                <h1>
+                    Hi, I'm <span class="highlight">Abhishek</span>
+                    <span class="typewriter" id="typewriter">Python Developer</span>
+                </h1>
+                <p>I specialize in building efficient, scalable, and innovative solutions with Python. Let's create
+                    something amazing together!</p>
+            </div>
+        </section>
+
+        <!-- skills -->
+        <session class="skill-session" id="skills">
+            <div class="skills-container">
+                <div class="skill-box animate-scale"><img class="py" src="static/images/icons/python.png" alt="icon"
+                        title="Python">Python</div>
+                <div class="skill-box animate-scale"><img class="scp" src="static/images/icons/web-transformed.webp"
+                        alt="icon">WebScraping</div>
+                <div class="skill-box animate-scale"><img class="fast" src="static/images/icons/fast.png"
+                        alt="icon">FastAPI</div>
+                <div class="skill-box animate-scale"><img class="gen" src="static/images/icons/gen.png" alt="icon">GenAI
+                </div>
+                <div class="skill-box animate-scale"><img class="ten" src="static/images/icons/tenimage.png"
+                        alt="icon">TensorFlow
+                </div>
+                <div class="skill-box animate-scale"><img class="sk" src="static/images/icons/sk copy.png"
+                        alt="icon">SkLearn</div>
+            </div>
+        </session>
+
+        <!-- Project Session-->
+        <session class="project-session">
+            <h1 class="project-title">ProjeCts</h1>
+            <div class=line></div>
+            <div class="gallery-container">
+                <div class="item-container" id="item-1" onclick="moveItem(event, 'item-1')">
+                    <h1 ></h1>
+                    <div class="image-plate">
+                        <img src="static/images/chat_bot/cb2.png" alt="Image 1" class="media" height="100%"
+                            width="100%">
+                    </div>
+                </div>
+                <div class="item-container" id="item-2" onclick="moveItem(event, 'item-2')">
+                    <h1></h1>
+                    <div class="image-plate">
+                        <img src="static/images/chat_bot/cb1.png" alt="Image 1" class="media" height="100%"
+                            width="100%">
+                    </div>
+                </div>
+                <div class="item-container" id="item-3" onclick="moveItem(event, 'item-3')">
+                    <h1 style="color: white;"><a style="color: white; text-decoration: none;" href="https://github.com/Hdknife/Hybrid_Chat">Hybrid Chatbot!</a></h1>
+                    <div class="image-plate">
+                        <!-- <img src="/image/cb2.png" alt="Image 1" class="media" height="100%" width="100%"> -->
+                        <video style="border-radius: 2cap; " width="100%" height="100%" controls>
+                            <source src="static/video/384924838-ce326ce0-0f13-4369-a816-0a11515a650f.mp4"
+                                type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-container">
+                <div class="item-container" id="item-4" onclick="moveItem(event, 'item-4')">
+                    <h1 ></h1>
+                    <div class="image-plate">
+                        <img src="https://private-user-images.githubusercontent.com/134684063/374933888-b004cea7-56f8-47e0-928a-d5093f7f029b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzMxNTA0NzYsIm5iZiI6MTczMzE1MDE3NiwicGF0aCI6Ii8xMzQ2ODQwNjMvMzc0OTMzODg4LWIwMDRjZWE3LTU2ZjgtNDdlMC05MjhhLWQ1MDkzZjdmMDI5Yi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjAyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIwMlQxNDM2MTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lZTQ2YTkyMTNlYWM0NjlkZTY4NmJiNTcwOWQ0NjliOTNiNTViYjg4ZDY0ZThmYjNmNGRjZGRiY2NjMzRjODcxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.PCF4BZY3ZEaod7O5mz2VglAt56Bt2LbaonslZUlohc8"
+                            alt="Image 1" class="media" height="100%" width="100%">
+                    </div>
+                </div>
+                <div class="item-container" id="item-5" onclick="moveItem(event, 'item-5')">
+                    <h1></h1>
+                    <div class="image-plate">
+                        <img src="https://private-user-images.githubusercontent.com/134684063/374935569-df1b1e1c-ba40-49fb-94ca-3be405df6da5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzMxNTA0NzYsIm5iZiI6MTczMzE1MDE3NiwicGF0aCI6Ii8xMzQ2ODQwNjMvMzc0OTM1NTY5LWRmMWIxZTFjLWJhNDAtNDlmYi05NGNhLTNiZTQwNWRmNmRhNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjAyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIwMlQxNDM2MTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lM2E3YmJkNTBjZTI3MGMwN2ZmYjkzNTZhNTlmMjNkNmY5M2IwZTU1NzEyZjhjMDRlODdhMTE1MmY2ZDU0NDhkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.HprYlxgfkvvm3kV-9cPKzbuTPIYGja-v4S9iU9Vjx6I"
+                            alt="Image 1" class="media" height="100%" width="100%">
+                    </div>
+                </div>
+                <div class="item-container" id="item-6" onclick="moveItem(event, 'item-6')">
+                    <h1 style="color: white;"><a style="color: white; text-decoration: none;" href="https://github.com/Hdknife/Basic_Amazon_Scraping_Scripts">Amazon WebScraping Script</a></h1>
+                    <div class="image-plate">
+                        <video
+                            style="border-radius: 2cap; justify-content: center; justify-items: center; align-items: center; "
+                            width="100%" height="100%" controls >
+                            <source src="static/video/374935352-1c3ad683-ad74-4b33-976a-82e4241cdca2.mp4"
+                                type="video/mp4" >
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </session>
+
+        <!-- contact -->
+        <section class="contact" id="contact">
+            <div class="contact-container">
+                <div>
+                    <h1>Contact Me</h1>
+                    <hr>
+                </div>
+                <p>I'd love to hear from you! Whether you have a question or just want to connect, feel free to reach
+                    out.</p>
+
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                    <input type="hidden" name="access_key" value="3c041095-c391-406f-88fe-20365149a3ea">
+
+                    <div class="form-group">
+                        <!-- <label for="name">Name</label> -->
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <!-- <label for="email">Email</label> -->
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <!-- <label for="message">Message</label> -->
+                        <textarea id="message" rows="5" placeholder="Write your message" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn-submit">Send Message</button>
+                    </div>
+
+                </form>
+            </div>
+            <div class="right-side-design">
+                <div class="box" id="box-1"></div>
+                <div class="box" id="box-2"></div>
+                <div class="box" id="box-3"></div>
+                <div class="box" id="text-ief">
+                    <h1 id="type-view"></h1>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 A.C.D. All rights reserved.</p>
+            <div class="social-links">
+                <a href="mailto:abhishek.sondhiya@example.com" class="social-link" title="Email">
+                    <img class="social-icon"
+                        src="https://th.bing.com/th?id=ODLS.112e55dc-4008-476c-bb39-88b4f8adb808&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2"
+                        alt="Email">
+                </a>
+                <a href="https://github.com/Hdknife" target="_blank" class="social-link" title="GitHub">
+                    <img class="social-icon"
+                        src="https://th.bing.com/th?id=ODLS.03245701-8d3e-443e-af13-66e289085f86&w=18&h=18&o=6&pid=1.2"
+                        alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/abhisheksondhiya/" target="_blank" class="social-link"
+                    title="LinkedIn">
+                    <img class="social-icon"
+                        src="https://th.bing.com/th?id=ODLS.fc619bab-a786-4b75-8669-6881202d98da&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2"
+                        alt="LinkedIn">
+                </a>
+
+             
+            </div>
+            <label for="">+91 6267440954</label>
+            
+        </div>
+    </footer>
+
+
+</body>
+<script src="static/js/scripts.js"></script>
+<script src="static/js/rotation.js"></script>
+
+</html>

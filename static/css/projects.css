@@ -1,0 +1,166 @@
+/* Gallery-container */
+/* <!-- container-gallery, item, image-plate --> */
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100vh;
+    height: 90vh;
+    background-color: rgba(77, 98, 106, 0.322);
+    border-radius: 5cap;
+    margin-bottom: 5vh;
+}
+
+/* items */
+
+.item-container {
+
+    position: absolute;
+    justify-items: center;
+    background-color: chartreuse;
+    width: 90vh;
+    height: 80vh;
+    z-index: 0;
+    border-radius: 5cap;
+    transition: transform 0.5s ease, z-index 0.5s ease;
+}
+
+/* coloring */
+
+#item-1,#item-4 {
+    /* border: solid red; */
+    color: rgb(252, 251, 250);
+    display: grid;
+    justify-content: center;
+    background-color: rgba(30, 2, 30, 0.614);
+}
+
+#item-2 ,#item-5{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    background-color: rgba(56, 49, 51, 0.785);
+
+    background-position: center;
+
+    right: 3%;
+
+}
+
+#item-3, #item-6 {
+    display: grid;
+    justify-content: center;
+    background-color: rgba(3, 3, 3, 0.683);
+    /* display: none; */
+    left: 9%;
+    object-fit: cover;
+
+}
+
+
+/* video {
+    border-radius: 2cap;
+    z-index: -1;
+} */
+
+img {
+    border-radius: 2cap;
+
+}
+
+.image-plate {
+    display: flex;
+    border-radius: 3cap;
+    justify-content: center;
+    border: solid white;
+    width: 80vh;
+    height: 50vh;
+
+}
+.project-session{
+display: grid;
+justify-content: center;
+justify-items: center;
+margin-top: 3vh;
+margin-bottom: 2vh;
+}
+
+.project-title{
+margin-top:6vh;
+font-size: xx-large;
+margin-bottom: 0;
+}
+
+/* line effect */
+.line{
+    /* border: solid; */ 
+    border-radius: 3cap;
+    background-color: orange;
+    width: 80px;
+    height: 6px;
+    margin-top: 6px;
+    margin-bottom: 10vh
+}
+
+
+
+/* Footer Styling */
+.footer {
+    background-color: #0a0909; /* Dark background */
+    color: #fff; /* White text for contrast */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #ccc; /* Slightly lighter text for the copyright */
+}
+
+/* Social Media Links */
+.social-links {
+    margin-top: 10px;
+}
+
+.social-link {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: rgba(240, 248, 255, 0.79); /* Soft background for icons */
+    padding: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover Effects */
+.social-icon:hover {
+    transform: scale(1.1);
+    background-color: #ff9800; /* LinkedIn blue on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer {
+        padding: 15px 0;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+
+    .social-icon {
+        width: 28px;
+        height: 28px;
+    }
+}
