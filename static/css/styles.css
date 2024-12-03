@@ -81,7 +81,7 @@ nav ul li a:hover {
     background: linear-gradient(to bottom right, #000000, #333);
     /* background-image: url("/image/WhatsApp\ Image\ 2024-11-19\ at\ 20.46.54_9960438b.jpg"); */
     background-position: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url('/static/images/theme/WhatsApp\ Image\ 2024-11-19\ at\ 20.46.54_9960438b.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url('./static/images/theme/WhatsApp\ Image\ 2024-11-19\ at\ 20.46.54_9960438b.jpg');
     background-size: cover;
     color: #fff;
     text-align: center;
